@@ -7,16 +7,16 @@ $(document).ready(function(){
         name:"Calculator",
         content:[
             {
-                href:"test.html",
+                href:"#",
                 name:"test",
             },{
-                href:"aklevel.html",
+                href:"#",
                 name:"Leveling"
             },{
-                href:"akevolve.html",
+                href:"#",
                 name:"Material"
             },{
-                href:"akmatuses.html",
+                href:"#",
                 name:"Material Total Usage"
             }]
     })
@@ -24,40 +24,40 @@ $(document).ready(function(){
         name:"Information",
         content:[
         {
-            href:"akhrchars.html",
+            href:"#",
             name:"Operator"
         },{
-            href:"akenemy.html",
+            href:"#",
             name:"Enemy"
         },{
-            href:"akriic.html",
+            href:"#",
             name:"Infrastructure Skill"
         },{
-            href:"akhrcompare2.html",
+            href:"#",
             name:"Comparing (WIP)"
         },{
-            href:"akstage.html",
+            href:"#",
             name:"Stage (WIP)"
         },{
-            href:"akmedal.html",
+            href:"#",
             name:"Medal List (WIP)"
         },{
-            href:"akrogue.html",
+            href:"#",
             name:"Roguelike Relic List (WIP)"
         }]
     })
-    dropdown.push({name:"Elite Materials",content:"akhrelite.html"})
-    dropdown.push({name:"Guide",content:"akguide.html"})
-    dropdown.push({name:"Mission Story",content:"akstory.html"})
+    dropdown.push({name:"Elite Materials",content:"#"})
+    dropdown.push({name:"Guide",content:"#"})
+    dropdown.push({name:"Mission Story",content:"#"})
     dropdown.push({
         name:"Extra",
         content:[
         {
-            href:"aklinker.html",
+            href:"#",
             name:"bilibili Linker"
         },
         {
-            href:"akgallery.html",
+            href:"#",
             name:"CG Gallery"
         }]
     })
