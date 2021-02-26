@@ -116,7 +116,7 @@ $(document).ready(function(){
     // console.log(localStorage.getItem('gameRegion'))
 
     if(!localStorage.getItem('gameRegion') || !localStorage.getItem('webLang')){
-        localStorage.setItem("gameRegion", 'cn');
+        localStorage.setItem("gameRegion", 'en');
         localStorage.setItem("webLang", 'en');
         reg = "cn";
         lang = "en";
