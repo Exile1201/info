@@ -61,7 +61,7 @@ $(document).ready(function(){
             name:"CG Gallery"
         }]
     })
-      // console.log(window.location.href.split("/")[window.location.href.split("/").length-1])
+    // console.log(window.location.href.split("/")[window.location.href.split("/").length-1])
     let currentHtml= window.location.href.split("/")[window.location.href.split("/").length-1];
     let navDropdown = []
     dropdown.forEach(drop => {
@@ -91,13 +91,13 @@ $(document).ready(function(){
             navDropdown.push(`
             <li class="nav-item dropdown ${isCurrent!="menu"&&isGroup?"active":""}">
             <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;"href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
-                    <div class="ak-subtitle ak-enable">${drop.name}</div>
+                    <div class="ak-subtitle ak-disable">${drop.name}</div>
             `)
             
             
             // console.log(isCurrent)
             navDropdown.push(`
-                    <div class="ak-enable ">${isCurrent}</div>
+                    <div class="ak-disable ">${isCurrent}</div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             `)
@@ -110,18 +110,52 @@ $(document).ready(function(){
             navDropdown.push(`</div>`)
         }
     })
+    var reg;
+    var lang, langText;
+
+    // console.log(localStorage.getItem('gameRegion'))
+
+    if(!localStorage.getItem('gameRegion') || !localStorage.getItem('webLang')){
+        localStorage.setItem("gameRegion", 'en');
+        localStorage.setItem("webLang", 'en');
+        reg = "cn";
+        lang = "en";
+    } else {
+        reg = localStorage.getItem('gameRegion');
+        lang = localStorage.getItem('webLang');
+    }
+    switch (lang) {
+        case "en":langText = 'English';break;
+        case "cn":langText = 'Chinese';break;
+        case "jp":langText = 'Japanese';break;
+        case "kr":langText = 'Korean';break;
+    }
+    // console.log(reg)
     let html = `
     <img src="./img/custom/texas.jpg" width="40" height="40" style="transform:scale(1.2,1.2)translate(-8px,1px)"class="d-inline-block align-top" alt="">
         <a class="navbar-brand" href="index.html" translate-id="topbar-1">Exile1201</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="true" aria-label="展开">
+                aria-controls="navbarNav" aria-expanded="false" aria-label="展开">
             <span class="navbar-toggler-icon"></span>
         </button>
-    
-<div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
+                    ${navDropdown.join("")}
+                    
+                    
+                </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ace-donatemodal"><img height='20px' style='border:0px;height:20px;margin-top:-5px' src='./img/items/GOLD.png'>  Donate</button>
+                </li>
 
-</ul>
+                
+                
+            </ul>
+        </div>
+    `
+    $('#aknav').html(html);
+    })
 
-`
-    $('#aknav').html(html)
+
+    
