@@ -61,4 +61,53 @@ $(document).ready(function(){
             name:"CG Gallery"
         }]
     })
+      // console.log(window.location.href.split("/")[window.location.href.split("/").length-1])
+    let currentHtml= window.location.href.split("/")[window.location.href.split("/").length-1];
+    let navDropdown = []
+    dropdown.forEach(drop => {
+
+        let isCurrent = undefined
+        let isGroup = undefined
+        
+        // console.log(typeof drop.content)
+        if(typeof drop.content == "string"){
+            if(currentHtml.includes(drop.content)) {
+                isGroup = true;
+            }
+            navDropdown.push(`
+            <li class="nav-item ${isGroup?"active":""}">
+                <a class="nav-link " href="${drop.content}">${drop.name}</a>
+            </li> 
+            `)
+        }else{
+            drop.content.forEach(dropelement => {
+                if(currentHtml.includes(dropelement.href)) {
+                    isCurrent=dropelement.name;
+                    isGroup = true;
+                }
+                
+            })
+            isCurrent = isCurrent?isCurrent:"Menu"
+            navDropdown.push(`
+            <li class="nav-item dropdown ${isCurrent!="menu"&&isGroup?"active":""}">
+            <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;"href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
+                    <div class="ak-subtitle ak-enable">${drop.name}</div>
+            `)
+            
+            
+            // console.log(isCurrent)
+            navDropdown.push(`
+                    <div class="ak-enable ">${isCurrent}</div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            `)
+            // console.log(navDropdown)
+            drop.content.forEach(dropelement => {
+                navDropdown.push(`
+                <a class="dropdown-item" href="${dropelement.href}" >${dropelement.name}</a>
+                `)
+            });
+            navDropdown.push(`</div>`)
+        }
+    })
     
