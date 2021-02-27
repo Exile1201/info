@@ -115,13 +115,10 @@ $(document).ready(function(){
 
     // console.log(localStorage.getItem('gameRegion'))
 
-    if(!localStorage.getItem('gameRegion') || !localStorage.getItem('webLang')){
-        localStorage.setItem("gameRegion", 'en');
+    if(!localStorage.getItem('webLang')){
         localStorage.setItem("webLang", 'en');
-        reg = "en";
         lang = "en";
     } else {
-        reg = localStorage.getItem('gameRegion');
         lang = localStorage.getItem('webLang');
     }
     switch (lang) {
