@@ -88,6 +88,12 @@ $(document).ready(function(){
                 
             })
             
+            isCurrent = isCurrent?isCurrent:"Menu"
+            navDropdown.push(`
+            <li class="nav-item dropdown ${isCurrent!="menu"&&isGroup?"active":""}">
+            <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;"href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
+                    <div class="ak-subtitle ak-disable">${drop.name}</div>
+            `)
             
             
             // console.log(isCurrent)
