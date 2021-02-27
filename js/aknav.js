@@ -120,3 +120,8 @@ $(document).ready(function(){
     
 <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
+
+</ul>
+
+`
+    $('#aknav').html(html)
