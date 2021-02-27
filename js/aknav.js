@@ -87,12 +87,11 @@ $(document).ready(function(){
                 }
                 
             })
-            
             isCurrent = isCurrent?isCurrent:"Menu"
             navDropdown.push(`
             <li class="nav-item dropdown ${isCurrent!="menu"&&isGroup?"active":""}">
             <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px;"href="#" id="regionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
-                    <div class="ak-subtitle ak-disable">${drop.name}</div>
+                    <div class="ak-subtitle ak-enable">${drop.name}</div>
             `)
             
             
@@ -149,15 +148,15 @@ $(document).ready(function(){
 
                 
                 <li class="nav-item dropdown" id="navitemLanguage">
-                    <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <div class="ak-subtitle ak-enable" translate-id="language-2">Language</div>
-                            <div class="ak-disable" id="display-lang">English</div>
+                    <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px"href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <div class="ak-subtitle ak-disable" translate-id="language-2">Language</div>
+                            <div class="ak-disable" id="display-lang">`+langText+`</div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item lang unselectable selected" onclick="langDropdown($(this))" value="en">English</a>
+                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="en">English</a>
                         <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="cn">Chinese</a>
                         <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
-                        <a class="dropdown-item lang ununselectable" onclick="langDropdown($(this))" value="kr">Korean</a>
+                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="kr">Korean</a>
                     </div>
                 </li>
             </ul>
@@ -181,7 +180,7 @@ $(document).ready(function(){
             	<div style="text-align:left; margin: 5px;">
             		<h5>Help us maintain the website</h5>
             		<p>#</p>
-            		<p>#
+            		<p>#</p>
             		<p>#</p>
             	</div>
             	<div class="row" style="padding: 10px; max-height: 160px; background-color: #333;">
