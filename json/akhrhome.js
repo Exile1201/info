@@ -15,7 +15,7 @@ $.when(d0).then(function(){
         });
 
 	    $("#navitemRegion").addClass('ak-disable2');
-        $("#navitemLanguage").addClass('ak-disable2');
+        $("#navitemLanguage").addClass('ak-enable2');
         
         var html = ""
         console.log(db.homedata)
@@ -50,6 +50,6 @@ $.when(d0).then(function(){
 	$.getScript("js/arrive.min.js", function(){
         $(document).arrive("#regionDropdown", function(){
             $("#navitemRegion").addClass('ak-disable2');
-            $("#navitemLanguage").addClass('ak-disable2');
+            $("#navitemLanguage").addClass('ak-enable2');
         });
     });
