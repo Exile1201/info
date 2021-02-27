@@ -110,7 +110,6 @@ $(document).ready(function(){
             navDropdown.push(`</div>`)
         }
     })
-    var reg;
     var lang, langText;
 
     // console.log(localStorage.getItem('gameRegion'))
