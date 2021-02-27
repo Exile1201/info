@@ -148,9 +148,9 @@ $(document).ready(function(){
                             <div class="ak-disable" id="display-lang">English</div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item lang unselectable selected" onclick="langDropdown($(this))" value="en">English</a>
+                        <a class="dropdown-item lang selectable selected" onclick="langDropdown($(this))" value="en">English</a>
                         <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="cn">Chinese</a>
-                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
+                        <a class="dropdown-item lang selectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
                         <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="kr">Korean</a>
                     </div>
                 </li>
