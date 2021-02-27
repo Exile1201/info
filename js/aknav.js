@@ -145,13 +145,13 @@ $(document).ready(function(){
                 <li class="nav-item dropdown" id="navitemLanguage">
                     <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             <div class="ak-subtitle ak-enable" translate-id="language-2">Language</div>
-                            <div class="ak-enable" id="display-lang">English</div>
+                            <div class="ak-disable" id="display-lang">English</div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item lang selectable selected" onclick="langDropdown($(this))" value="en">English</a>
+                        <a class="dropdown-item lang unselectable selected" onclick="langDropdown($(this))" value="en">English</a>
                         <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="cn">Chinese</a>
-                        <a class="dropdown-item lang selectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
-                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="kr">Korean</a>
+                        <a class="dropdown-item lang unselectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
+                        <a class="dropdown-item lang ununselectable" onclick="langDropdown($(this))" value="kr">Korean</a>
                     </div>
                 </li>
             </ul>
