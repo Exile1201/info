@@ -175,7 +175,7 @@ $(document).ready(function(){
             	<div style="text-align:left; margin: 5px;">
             		<h5>Help us maintain the website</h5>
             		<p>#</p>
-            		<p>#</p>
+            		<p>#
             		<p>#</p>
             	</div>
             	<div class="row" style="padding: 10px; max-height: 160px; background-color: #333;">
