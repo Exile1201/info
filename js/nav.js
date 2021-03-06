@@ -135,8 +135,70 @@ $(document).ready(function(){
             </ul>
         </div>
     `
-    $('#aknav').html(html);
-    })
+    $('#aknav').html(html)
+    
+    var donate = `
+    <div class="modal fade " id="ace-donatemodal">
+        <div class="modal-dialog modal-dialog-centered modal" >
+            <div class="modal-content" style="background:#444">
+        
+            <!-- Modal Header -->
+            <!-- <div class="modal-header">
+                <h4 class="modal-title"></h4>
+                
+            </div> -->
+        
+            <!-- Modal body -->
+            <div class="modal-body acedonate-body">
+            	<div style="text-align:left; margin: 5px;">
+            		<h5>Help us maintain the website</h5>
+            		<p>I made this in my spare times so please help me, a dollar would do.</p>
+            		<p>#.
+            		<p>#</p>
+            	</div>
+            	<div class="row" style="padding: 10px; max-height: 160px; background-color: #333;">
+            		<div class="col-md-6">
+	            		<a class="btn btn-info" style="padding:15px; width: 100%; height: 100%" href='#' target='_blank'>
+	            			<b style=" color: white;">Donate on Ko-fi</b>
+	            			<div style="display:block; margin-top: 20px;">
+	            				<img height="50" src="https://theme.zdassets.com/theme_assets/2141020/171bb773b32c4a72bcc2edfee4d01cbc00d8a004.png">
+	            				<img height="30" style="filter: brightness(100)" src="https://pngimg.com/uploads/paypal/paypal_PNG4.png">
+	            			</div>
+	            		</a>
+            		</div>
+            		<div class="col-md-6">
+	            		<a class="btn btn-info" style="padding:15px 10px 10px 10px; width: 100%;" href='#' target='_blank'>
+	            			<b style=" color: white;">Donate on Trakteer</b>
+	            			<div style="display:block;">
+	            				<div style="background-color: #bf202f; display: inline-block; border-radius: 6px; padding: 5px 10px; vertical-align: middle;">
+	            					<div style="background-image: url('https://trakteer.id/images/mix/navbar-logo-lite-white-beta.png'); background-size: cover; height: 43px; width: 28px; background-position: 0% 0%;"></div>
+	            				</div>
+
+	            				<div style="display: inline-block; padding: 5px 10px; position: relative; width: 100px; height: 90px; vertical-align: middle;">
+	            					<div style="filter: brightness(100); height: 110px; width: 100px; left: 0px; top: -10px; position: absolute; background-position: 0% 0%; background-size: cover; background-image: url('./img/extra/gopay.png');"></div>
+	            				</div>
+	            			</div>
+	            		</a>
+            		</div>
+            	</div>
+
+            </div>
+        
+            <!-- Modal footer -->
+            <div class="modal-footer" style="border-top: 1px solid #2f2f2f">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        
+            </div>
+        </div>
+    </div>
+    `
+    $('#acedonate').html(donate)
+});
+
+function hideload(){
+    $("#loadingOverlay").fadeOut(); 
+}
 
 
     
