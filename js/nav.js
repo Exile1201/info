@@ -8,7 +8,7 @@ $(document).ready(function(){
         content:[
             {
                 href:"#",
-                name:"test",
+                name:"#",
             },{
                 href:"#",
                 name:"Leveling"
@@ -21,11 +21,11 @@ $(document).ready(function(){
             }]
     })
     dropdown.push({
-        name:"Information",
+        name:"Projects",
         content:[
         {
-            href:"#",
-            name:"Operator"
+            href:"pixelgame.html",
+            name:"Pixel Game"
         },{
             href:"#",
             name:"Enemy"
@@ -153,8 +153,8 @@ $(document).ready(function(){
             	<div style="text-align:left; margin: 5px;">
             		<h5>Support Me</h5>
             		<p>I make this website for myself in my free times, worth.</p>
-            		<p>A dollar would help me live, plz
-            		<p>#</p>
+            		<p>A dollar would help me live, plz...</p>
+            		
             	</div>
             	<div class="row" style="padding: 10px; max-height: 160px; background-color: #333;">
             		<div class="col-md-6">
