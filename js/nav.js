@@ -24,7 +24,7 @@ $(document).ready(function(){
         name:"Projects",
         content:[
         {
-            href:"pixelgame.html",
+            href:"project/pixelgame.html",
             name:"Pixel Game"
         },{
             href:"#",
