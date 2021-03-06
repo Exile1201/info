@@ -110,26 +110,7 @@ $(document).ready(function(){
             navDropdown.push(`</div>`)
         }
     })
-    var reg;
-    var lang, langText;
-
-    // console.log(localStorage.getItem('gameRegion'))
-
-    if(!localStorage.getItem('gameRegion') || !localStorage.getItem('webLang')){
-        localStorage.setItem("gameRegion", 'en');
-        localStorage.setItem("webLang", 'en');
-        reg = "cn";
-        lang = "en";
-    } else {
-        reg = localStorage.getItem('gameRegion');
-        lang = localStorage.getItem('webLang');
-    }
-    switch (lang) {
-        case "en":langText = 'English';break;
-        case "cn":langText = 'Chinese';break;
-        case "jp":langText = 'Japanese';break;
-        case "kr":langText = 'Korean';break;
-    }
+   
     // console.log(reg)
     let html = `
     <img src="./img/custom/texas.jpg" width="40" height="40" style="transform:scale(1.2,1.2)translate(-8px,1px)"class="d-inline-block align-top" alt="">
