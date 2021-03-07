@@ -97,7 +97,7 @@ $(document).ready(function(){
             
             // console.log(isCurrent)
             navDropdown.push(`
-                    <div class="ak-disable ">${isCurrent}</div>
+                    <div class="enable ">${isCurrent}</div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             `)
