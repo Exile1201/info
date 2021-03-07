@@ -545,14 +545,14 @@ html, body {
     user-select: none;
 }
 
-.ak-subtitle{
+.subtitle{
     color:white;
     position: absolute;
     margin-top:-15px;
     margin-left: -20px;
     font-size: 10px
 }
-.ak-subtitle2{
+.subtitle2{
     color:white !important;
     position: absolute;
     margin-top:-17px;
@@ -568,7 +568,7 @@ html, body {
     
 }
 
-.ak-subtitle2.medium{
+.subtitle2.medium{
     font-size: 0.8em;
 }
 
