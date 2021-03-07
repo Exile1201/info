@@ -472,17 +472,17 @@ html, body {
 .ak-btn-bg{
     background:#666
 }
-.ak-disable{
+.disable{
     pointer-events: none;
     cursor: not-allowed;
     color: darkgrey;
 }
 
-.ak-disable2 {
+.disable2 {
     cursor: not-allowed;
 }
 
-.ak-disable2 * {
+.disable2 * {
     pointer-events: none;
     color: #414141!important;
 }
