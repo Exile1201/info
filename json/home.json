@@ -12,8 +12,16 @@
             ]
         },
         {
-            "title":"Changes",
+            "title":"Blog",
             "link":"#",
+            "image":"#",
+            "content":[
+                "unavalable"
+                ]
+        },
+        {
+            "title":"Changes",
+            "link":"changes.md",
             "image":"#",
             "content":[
                 "Any changes to the Website"
