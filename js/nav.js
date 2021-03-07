@@ -4,11 +4,11 @@ $(document).ready(function(){
     let dropdown = []
     dropdown.push({name:"Home",content:"index.html"})
     dropdown.push({
-        name:"Calculator",
+        name:"About Me",
         content:[
             {
                 href:"#",
-                name:"#",
+                name:"Blogs",
             },{
                 href:"#",
                 name:"Leveling"
