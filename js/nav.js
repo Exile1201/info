@@ -46,7 +46,7 @@ $(document).ready(function(){
             name:"Roguelike Relic List (WIP)"
         }]
     })
-    dropdown.push({name:"Changes",content:"other/changes.md"})
+    dropdown.push({name:"Changes",content:"other/changes.html"})
     dropdown.push({name:"Guide",content:"#"})
     dropdown.push({name:"Mission Story",content:"#"})
     dropdown.push({
