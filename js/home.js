@@ -48,6 +48,6 @@ $.when(d0).then(function(){
 	});
 	$.getScript("js/arrive.min.js", function(){
         $(document).arrive("#regionDropdown", function(){
-            $("#navitemLanguage").addClass('ak-disable2');
+            $("#navitemLanguage").addClass('disable2');
         });
     });
