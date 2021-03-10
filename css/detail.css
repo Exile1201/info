@@ -156,34 +156,34 @@ body {
     box-shadow: 1px 1px 2px #111;
 }
 
-.selectop-grid .ak-showclass {
+.selectop-grid .showclass {
     position: absolute;
     top: 20px;
     left: 0px;
 }
-.selectop-grid .ak-showclass img {
+.selectop-grid .showclass img {
     width: 20px;
     height: 20px;
     background: rgba(17, 17, 17, 0.856);
 }
-.selectop-grid .ak-showclass img:hover {
+.selectop-grid .showclass img:hover {
     width: 40px;
     height: 40px;
     background: rgb(17, 17, 17);
 }
 
-.selectop-grid .ak-showfaction {
+.selectop-grid .showfaction {
     position: absolute;
     top: 0px;
     left: 0px;
 }
-.selectop-grid .ak-showfaction img {
+.selectop-grid .showfaction img {
     width: 20px;
     height: 20px;
     object-fit: contain;
     background: rgba(17, 17, 17, 0.856);
 }
-.selectop-grid .ak-showfaction img:hover {
+.selectop-grid .showfaction img:hover {
     width: 40px;
     height: 40px;
     background: rgb(17, 17, 17);
@@ -621,7 +621,7 @@ body {
 .skillleveldisplaycontainer {
     display: inline-block;
 }
-.akrankmastery{
+.rankmastery{
     display:inline-block;
 }
 
@@ -1026,13 +1026,13 @@ body {
     border-top: 15px solid rgba(71, 71, 71, 0);
 }
 
-.ak-cutcorner-rt{
+.cutcorner-rt{
     box-shadow: 0px -2px 0px 0px rgb(37, 37, 37);
     z-index: 5;
 }
 
 
-.ak-cutcorner-rt:after{
+.cutcorner-rt:after{
     content: "";
     width: 28px;
     height: 28px;
@@ -1071,7 +1071,7 @@ body {
     opacity: 0%;
 }
 
-.ak-chibi-btn{
+.chibi-btn{
     padding: 3px;
     padding-top: 2px;
     color: rgb(190, 190, 190);
@@ -1083,7 +1083,7 @@ body {
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
 }
 
-.ak-chibi-btn :focus{
+.chibi-btn :focus{
     background:rgb(116, 116, 116) ;
 
 }
@@ -1094,7 +1094,7 @@ body {
     margin: 2px;
 }
 
-#ak-bottom-allnav{
+#bottom-allnav{
     position:absolute;
     width:550px;
     bottom:-20px;
@@ -1229,11 +1229,11 @@ body {
     padding: 8px 4px;
 }
 
-.ak-newline{
+.newline{
     display: block; 
     margin-bottom: 0.4em; 
 }
-.ak-line{
+.line{
     line-height: 1.3; 
     padding:8px 0px 8px 0px;
 }
@@ -1423,10 +1423,10 @@ body {
         left: calc(80px + 18vw) !important;
     }
     
-    .ak-cutcorner-rt{
+    .cutcorner-rt{
         z-index: 0;
     }
-    .ak-cutcorner-rt:after{
+    .cutcorner-rt:after{
         z-index: 0;
     }
     #Chibi-nav{
@@ -1447,7 +1447,7 @@ body {
         margin-left : -20px;
     }
 
-    #ak-bottom-allnav{
+    #bottom-allnav{
         left:-50px;
         bottom:-120px;
         padding-bottom: 2px;
@@ -1663,7 +1663,7 @@ body {
         top:100px;
         right: 0px !important;
     }
-    .akrankmastery{
+    .rankmastery{
         display:block
     }
 }
