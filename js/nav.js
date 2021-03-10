@@ -168,7 +168,7 @@ $(document).ready(function(){
         </div>
 
     `
-    $('#aknav').html(html)
+    $('#nav').html(html)
 
         var donate = `
     <div class="modal fade " id="ace-donatemodal">
