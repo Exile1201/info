@@ -250,14 +250,14 @@ input[type='text'] {
     height:35px;
 }
 
-.ak-center{
+.center{
     text-align: center;
 }
 
-.ak-active {
+.active {
     color:#ddd;
 }
-.ak-browse {
+.browse {
     width: 250%;
     font-size: 13px;
 }
@@ -303,7 +303,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-.ak-ontop-button{
+.ontop-button{
     color:#ddd;
     background-color: #333;
     opacity: 0.95;
@@ -322,20 +322,20 @@ html, body {
     transition: all 1s ease */
 }
 
-.ak-button{
+.button{
     padding: 0;
     border: 0;
     background: none;
     outline:none;
 }
-.ak-button:focus {
+.button:focus {
     outline: none;
 }
-.ak-ontop-button:hover {
+.ontop-button:hover {
     background-color: #333;
     border-color:#222;
 }
-.ak-ontop-button:focus {
+.ontop-button:focus {
     background-color: #000;
     box-shadow: 2px 4px 3px 2px rgba(100,100,100,0.5);
 }
@@ -383,93 +383,93 @@ html, body {
     background-color: #333;
     border-color:#222;
 }
-.ak-bg{
+.bg{
     color:#ddd;
     background-color: #222;
 }
-.ak-back{
+.back{
     background-color: #66666666;
 }
-.ak-mid{
+.mid{
     background-color: #DDDDDD99;
 }
-.ak-nopadding{
+.nopadding{
     padding: 0px;
 }
-.ak-nomargin{
+.nomargin{
     margin: 0px;
 }
-.ak-div{
+.div{
     padding:10px;   
 }
 
-.ak-table{
+.table{
     background-color: rgb(54, 54, 54) ; 
     color:#ddd;
     border:none
 }
 
-.ak-thead th {
+.thead th {
     color: #fff;
     background-color: #1b1b1b;
     /* border-color: #111111; */
     border-bottom:0px!important;
     border:none;
   }
-.ak-table tr{
+.table tr{
     background-color: rgb(58, 58, 58);
     border:none;
 }
-.ak-table td{
+.table td{
     border:none;
 }
-.ak-table tr:hover{
+.table tr:hover{
     background-color: rgba(51, 51, 51, 0.8);
 }
 
-.ak-table-striped tr:nth-child(odd){
+.table-striped tr:nth-child(odd){
     background-color: rgb(54, 54, 54);
 }
-.ak-table-striped tr:hover:nth-child(even){
+.table-striped tr:hover:nth-child(even){
     background-color: rgba(51, 51, 51, 0.8);
 }
-.ak-c-black{
+.c-black{
     color: #fff;
     background-color: #2f2f2f;
     border-color: #2f2f2f;
 }
-.ak-shadow-in{
+.shadow-in{
     box-shadow: inset 0px 0px 4px 3px #55555588 , inset 2px -2px 4px 3px #55555522
 }
-.ak-shadow{
+.shadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.ak-shadow-blue{
+.shadow-blue{
     box-shadow: 0 4px 8px 0 rgba(0, 152, 220, 0.2), 0 6px 20px 0 rgba(0, 152, 220, 0.19);
 }
-.ak-shadow-small{
+.shadow-small{
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1), 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
-.ak-btn{
+.btn{
     /* color:#DDD; */
     border-radius: 0px;
 }
 
-.ak-sm-btn{
+.sm-btn{
     padding: 2px 4px !important;
     color: rgb(233, 233, 233);
     background: rgb(27, 27, 27);
     border-radius: 2px !important;
 }
 
-.ak-btn-non{
+.btn-non{
     display: inline-block;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     line-height: 1.5;
 }
-.ak-btn-bg{
+.btn-bg{
     background:#666
 }
 .disable{
@@ -486,7 +486,7 @@ html, body {
     pointer-events: none;
     color: #414141!important;
 }
-.ak-btn-header{
+.btn-header{
     font-size: 12px;
     font-weight:700;
     vertical-align: text-bottom;
@@ -501,7 +501,7 @@ html, body {
     text-shadow: 2px 2px 2px #00000022,0px 0px 5px #00000077;
     /* box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.4); */
 }
-.ak-small-row{
+.small-row{
     padding:0px;
     margin:-20;
     /* margin: auto; */
@@ -509,24 +509,24 @@ html, body {
     /* transform:scale(1,0.92  ); */
     background:#DDDDDD00;
 }
-.ak-shadow-smallbox{
+.shadow-smallbox{
     box-shadow: 0 -4px 8px -20px rgba(0, 0, 0, 0.4), 0 -6px 20px 0 rgba(0, 0, 0, 0.3);
     background: #11111155
 }
 @media screen and (max-width:768px) {
-    .ak-small-row{
+    .small-row{
         text-align: center;
     }
-    .ak-small-row div{
+    .small-row div{
         margin: auto;
     }
-    .ak-btn-header-span{
+    .btn-header-span{
         box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
         padding-top:1px;
         padding-bottom:1px;
     }
 }
-.ak-footer{
+.footer{
     color:#fff;
     margin:auto;
     box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -572,7 +572,7 @@ html, body {
     font-size: 0.8em;
 }
 
-.ak-title{
+.title{
     color:#DDD;
     position: absolute;
     margin-top:-5px;
@@ -585,108 +585,108 @@ html, body {
     /* text-shadow: 0px 0px 2px #2f2f2f ; */
     background-color: #2f2f2f;
 }
-.ak-sm{
+.sm{
     margin:2px;
     padding:2px;
     border-radius: 2px;
 }
-.ak-rare-bg{
+.rare-bg{
     background: rgb(68, 67, 67);
 }
-.ak-rare-1{
+.rare-1{
     background: rgb(159, 159, 159);
 }
-.ak-rare-2{
+.rare-2{
     background: #dce537;
 }
-.ak-rare-3{
+.rare-3{
     background: rgb(0, 178, 246);
 }
-.ak-rare-4{
+.rare-4{
     background: rgb(219, 177, 219);
 }
-.ak-rare-5{
+.rare-5{
     background: rgb(255, 174, 0);
 }
-.ak-rare-6{
+.rare-6{
     background: rgb(255, 102, 0);
 }
-.ak-riic-control{
+.riic-control{
     color: #ffffff;
     background: #005752;
 }
-.ak-riic-power{
+.riic-power{
     color:#ffffff;
     background: #8fc31f;
 }
-.ak-riic-manu{
+.riic-manu{
     color: #333333;
     background: #ffd800;
 }
-.ak-riic-trade{
+.riic-trade{
     color:#ffffff;
     background: #0075a9;
 }
-.ak-riic-workshop{
+.riic-workshop{
     color: #333333;
     background:#e3eb00 ;
 }
-.ak-riic-train{
+.riic-train{
     color: #ffffff;
     background: #7d0022;
 }
-.ak-riic-dorm{
+.riic-dorm{
     color: #ffffff;
     background: #21cdcb;
 }
-.ak-riic-hire{
+.riic-hire{
     color: #ffffff;
     background: #565656;
 }
-.ak-riic-meet{
+.riic-meet{
     color: #ffffff;
     background:#dd653f ;
 }
-.ak-enemy{
+.enemy{
     color: #DDD;
     background:#36363666 ;
 }
-.ak-enemy-normal{
+.enemy-normal{
     color: #DDD;
     background:#52c51c66 ;
 }
-.ak-enemy-elite{
+.enemy-elite{
     color: #DDD;
     background:#e3eb0066 ;
 }
-.ak-enemy-boss{
+.enemy-boss{
     color: #DDD;
     background:#eb910066 ;
 }
 
-.ak-trait-magic{
+.trait-magic{
     color:#000;
     background: #00B3FD
 }
 
-.ak-trait-physical{
+.trait-physical{
     text-shadow: 2px 2px 2px #00000022,0px 0px 5px #00000077;
     background: #333333
 }
-.ak-trait-extra{
+.trait-extra{
     color:#000;
     background: #F49800
 }
-.ak-trait-heal{
+.trait-heal{
     color:#000;
     background: #32CD32
 }
-.ak-trait-debuff{
+.trait-debuff{
     color:#000;
     background: rgb(161, 57, 57)
 }
 
-.ak-card-group{
+.card-group{
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -697,19 +697,19 @@ html, body {
     width:200px;
 }
 
-.ak-card-group .ak-img-container{
+.card-group .img-container{
     width: 130px;
     height: 130px;
     margin-left:0px;
     margin-top:0px;
     padding-top:12px
 }
-.ak-card-group .card-img-bg{
+.card-group .card-img-bg{
     width: 120px;
     /* height: 50px; */
 }
 
-.ak-card-group .card-img-top{
+.card-group .card-img-top{
     object-fit: scale-down;
     margin:auto;
     margin-top:auto;
@@ -717,7 +717,7 @@ html, body {
     margin-left:-5px
 }
 
-.ak-item-group{
+.item-group{
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
@@ -756,17 +756,17 @@ html, body {
     color: #EEBB38;
 }
 
-.ak-font-novecento {
+.font-novecento {
     font-family: 'Novecentosanswide Normal', Arial, sans-serif;
 }
 
-.ak-textInput{
+.textInput{
     color:#fff;
     background-color: #222222;
     border:0px;
     border-radius: 0px;
 }
-.ak-textInput:focus{
+.textInput:focus{
     color:#fff;
     background-color: #1f1f1f;
     border:0px;
@@ -838,10 +838,10 @@ html, body {
         max-height: 85vh;
         overflow-y: auto;
       }
-    .ak-card-group{ 
+    .card-group{ 
         width:180px;
     }
-    .ak-card-group .card-img-top{
+    .card-group .card-img-top{
         object-fit: scale-down;
         margin:auto;
         margin-top:auto;
@@ -850,33 +850,33 @@ html, body {
         width:90px;
 
     }
-    .ak-card-group .ak-card-container{
+    .card-group .card-container{
         width: 120px;
     }
-    .ak-card-group .ak-img-container{
+    .card-group .img-container{
         width: 90px;
         height: 90px;
         padding-top:0px
         
     }
-    .ak-card-group .card-img-bg{
+    .card-group .card-img-bg{
         margin-left:15px;
         margin-top:3px;
         width: 80px;
 
     }
-    .ak-sm-text{
+    .sm-text{
         /* font-size: 9px */
 
         margin:0px;
         padding:0px
     }
-    .ak-mat-img{
+    .mat-img{
         width: 20px;
         height: 20px;
     }
 }
-/* .ak-card-group>.card{
+/* .card-group>.card{
     -webkit-box-flex:1;-ms-flex:1 0 0%;flex:1 0 0%;margin-bottom:0
     
   } */
