@@ -14,7 +14,7 @@ $.when(d0).then(function(){
             }, 500);
         });
 
-        $("#navitemLanguage").addClass('ak-disable2');
+        $("#navitemLanguage").addClass('disable2');
         
         var html = ""
         console.log(db.homedata)
