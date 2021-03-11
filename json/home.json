@@ -9,6 +9,14 @@
                 ]
         },
         {
+            "title":"Changes",
+            "link":"other/changes.html",
+            "image":"#",
+            "content":[
+                "Any changes to the Website"
+            ]
+        },
+        {
             "title":"Pixel Game",
             "link":"pixelgame.html",
             "image":"feature1",
@@ -17,14 +25,6 @@
                 "Can move",
                 "Boundaries",
                 "Slow"
-            ]
-        },
-        {
-            "title":"Changes",
-            "link":"other/changes.html",
-            "image":"#",
-            "content":[
-                "Any changes to the Website"
             ]
         }
     ],
