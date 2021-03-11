@@ -111,22 +111,6 @@ $(document).ready(function(){
         }
     })
 	
-	    var lang, langText;
-
-    // console.log(localStorage.getItem('gameRegion'))
-
-    if(!localStorage.getItem('webLang')){
-        localStorage.setItem("webLang", 'en');
-        lang = "en";
-    } else {
-        lang = localStorage.getItem('webLang');
-    }
-    switch (lang) {
-        case "en":langText = 'English';break;
-        case "cn":langText = 'Chinese';break;
-        case "jp":langText = 'Japanese';break;
-        case "kr":langText = 'Korean';break;
-    }
 
     // console.log(reg)
     let html = `
@@ -152,18 +136,7 @@ $(document).ready(function(){
             </ul>
         </div>
 
-<li class="nav-item dropdown" id="navitemLanguage">
-                    <a class="nav-link dropdown-toggle" style="display:inline-flex;padding-left:25px"href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <div class="subtitle enable" translate-id="language-2">Language</div>
-                            <div class="enable" id="display-lang">`+langText+`</div>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item lang selectable" onclick="langDropdown($(this))" value="en">English</a>
-                        <a class="dropdown-item lang selectable" onclick="langDropdown($(this))" value="cn">Chinese</a>
-                        <a class="dropdown-item lang selectable" onclick="langDropdown($(this))" value="jp">Japanese</a>
-                        <a class="dropdown-item lang selectable" onclick="langDropdown($(this))" value="kr">Korean</a>
-                    </div>
-                </li>
+
             </ul>
         </div>
 
