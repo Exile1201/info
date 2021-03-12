@@ -8,16 +8,10 @@ $(document).ready(function(){
         content:[
             {
                 href:"https://exile1201.github.io/blog/index.html",
+                name:"About Me"
+            },{
+                href:"https://exile1201.github.io/blog/index.html",
                 name:"Blogs",
-            },{
-                href:"#",
-                name:"Leveling"
-            },{
-                href:"#",
-                name:"Material"
-            },{
-                href:"#",
-                name:"Material Total Usage"
             }]
     })
     dropdown.push({
@@ -26,24 +20,6 @@ $(document).ready(function(){
         {
             href:"pixelgame.html",
             name:"Pixel Game"
-        },{
-            href:"#",
-            name:"Enemy"
-        },{
-            href:"#",
-            name:"Infrastructure Skill"
-        },{
-            href:"#",
-            name:"Comparing (WIP)"
-        },{
-            href:"#",
-            name:"Stage (WIP)"
-        },{
-            href:"#",
-            name:"Medal List (WIP)"
-        },{
-            href:"#",
-            name:"Roguelike Relic List (WIP)"
         }]
     })
     dropdown.push({name:"Changes",content:"other/changes.html"})
@@ -55,10 +31,6 @@ $(document).ready(function(){
         {
             href:"#",
             name:"bilibili Linker"
-        },
-        {
-            href:"#",
-            name:"CG Gallery"
         }]
     })
     // console.log(window.location.href.split("/")[window.location.href.split("/").length-1])
