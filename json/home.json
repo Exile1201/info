@@ -1,14 +1,6 @@
 {
     "contents":[
         {
-            "title":"Blog",
-            "link":"exile1201.github.io/blog/index.html",
-            "image":"feature2",
-            "content":[
-                "unavalable"
-                ]
-        },
-        {
             "title":"Changes",
             "link":"other/changes.html",
             "image":"#",
