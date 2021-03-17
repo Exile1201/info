@@ -7,7 +7,7 @@ $(document).ready(function(){
         name:"About Me",
         content:[
             {
-                href:"https://exile1201.github.io/blog/index.html",
+                href:"https://exile1201.github.io/ex/about.html",
                 name:"About Me"
             },{
                 href:"https://exile1201.github.io/ex/index.html",
